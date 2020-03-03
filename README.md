@@ -1,11 +1,9 @@
 # SPN - 6331 Project 1
----
 ## Check your java version
 `$ java -version`    
 My java version is 1.8.0, and you need install higher version than mine.   
----
 ## The structure of my input and output file
-After you download my project, you will find my input_spn.txt and output_spn.txt in the /S-box/src/resources.  
+After you download my project, you will find my input_spn.txt and output_spn.txt in the /SPN/src/resources.  
 #### My input file contains the following information:  
 **1. m**  
 It is the lenght of the input plain text in bits.  
@@ -33,16 +31,14 @@ The value of `a` indicates decrypt or encrypt. You can choose 1 or 0. If you inp
 5. It will show an encrypted or decrypted output of length m bits.  
 6. It will show the length of output in bits. E_k(x) if a = 0, and D_k(x) if a = 1. 
 7. It will show an Integer representing a‘s anti.  
----
 ## How to run my project
 After revise my input_spn.txt, you can run my code on a shell(Linux) or a terminal(Mac OS).   
 Step 1: go to the directory.   
-`cd /../S-box`   
-Step 2: run S-box.jar.   
-`java -jar S-box.jar`      
+`cd /../-SPN`   
+Step 2: run SPN.jar.   
+`java -jar SPN.jar`      
 Step 3: open the output_spn.txt to check the output.  
 `vi src/resources/output_spn.txt`    
----
 ## Testing
 If you input a message x1 length of m bits and do encrypt first, you will get an encrypt output x2 in the output_spn.txt. Then you can replace the `Message(x)` in the input_spn.txt with x2 and change a to 1.   
 Run S-box.jar again.  
