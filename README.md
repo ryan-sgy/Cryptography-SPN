@@ -34,7 +34,7 @@ The value of `a` indicates decrypt or encrypt. You can choose 1 or 0. If you inp
 ## How to run my project
 After revise my input_spn.txt, you can run my code on a shell(Linux) or a terminal(Mac OS).   
 Step 1: go to the directory.   
-`cd /../-SPN`   
+`cd /../SPN`   
 Step 2: run SPN.jar.   
 `java -jar SPN.jar`      
 Step 3: open the output_spn.txt to check the output.  
