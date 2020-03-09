@@ -16,7 +16,7 @@ You could revise 0 or 1 in each line on your own will, but you need keep KEY in 
 **4. S-box(function f)**  
 You could change the S-box function f on you will. But keep in the following format:  
 `Integer1,Integer2`  
-(For example, `0,255`)  j 
+(For example, `0,255`)     
 Integer1 and Integer 2 should range from 0 to 255. And each number from 0 to 255 must only appear one time in the list of Integer1 or Integer2.  
 After you revise the function, the total lines of S-box function should be 256.  
 **5. Permutation**  
